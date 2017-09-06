@@ -1,1 +1,4 @@
 <h1>I'm a cat!</h1>
+<%= @cats.each do |cat| %>
+  <h2><%= cat.name %> - Age: <%= cat.age %></h2>
+<% end %>
